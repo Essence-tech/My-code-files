@@ -1,0 +1,92 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Js Objec class</title>
+</head>
+<body>
+    <p id="demo"></p>
+</body>
+<script>
+
+const laptop = {
+    color: "blue",
+    brand: "Hp Pavillion",
+    storage: "500gb",
+    operatingSystem: "Windows"
+}
+
+
+
+// function fullname(firstName,lastName){
+//     return this.firstName + " " + this.lastName
+// }
+
+const person_1 = {
+    firstName: "Iseoluwa",
+    lastName: "Jimoh",
+    age: "12",
+    skinColor: "brown",
+    no_of_siblings: "3",
+    grand_parents: "Yes",
+    fullName: function () {
+    return this.firstName + " " + this.lastName;
+  }
+}
+
+const person_2 = {
+    firstName: "Jedidiah",
+    lastName: "Babalola",
+    age: "12",
+    skinColor: "brown",
+    no_of_siblings: "3",
+     fullName: function () {
+    return this.firstName + " " + this.lastName;},
+}
+
+const person_3 = {
+    firstName: "John",
+    lastName: "Doe",
+    age: "9",
+    skinColor: "red",
+    no_of_siblings: "2",
+     fullName: function () {
+    return this.firstName + " " + this.lastName;},
+}
+
+const person_4 = {
+    firstName: "Matthew",
+    lastName: "Ayodele",
+    age: "14",
+    skinColor: "yellow",
+    no_of_siblings: "5",
+     fullName: function () {
+    return this.firstName + " " + this.lastName;},
+}
+
+const person_5 = {
+    firstName: "Taiwo",
+    lastName: "Abidoye",
+    age: "25",
+    skinColor: "brown",
+    no_of_siblings: "4",
+     fullName: function () {
+    return this.firstName + " " + this.lastName;},
+}
+
+ console.log (person_1.fullName(), person_2.fullName(), person_3.fullName())
+ 
+const animal = {}
+animal.name = "Goat"
+animal.gender = "male"
+animal.name = "Cow"
+animal.age = 12
+animal.speed = function (){
+    return this.age * 10 + "KmH"
+}
+
+console.log(animal.speed())
+
+// Write 50 objects and 20 must have methods has their property
+</script>
+</html>

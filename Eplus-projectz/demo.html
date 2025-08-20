@@ -1,0 +1,161 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <p id="demo">Hello!</p>
+        <p id="demo2"></p>
+        <p id="demo3"></p>
+        <p id="demo4"></p>
+        <p id="demo5"></p>
+        <p id="demo6"></p>
+        <p id="demo7"></p>
+        <p id="age"></p>
+        <p id="test"></p>
+    </div>
+</body>
+  <script>
+   
+// window.alert("Hey");
+// console.log('Hello javaScript')
+// print()
+
+let name = "Tolu"
+document.getElementById('demo').innerHTML = name
+
+let age;
+age = 5 * 6
+document.getElementById('demo2').innerHTML = age
+
+age = 1
+console.log (age)
+
+age += 12
+console.log (age)
+
+age *= 4
+console.log (age)
+
+age /= 3
+console.log (age)
+
+const calc = 20 % 3;
+console.log(calc);
+
+
+
+ age = 19
+ age += " years young"
+document.getElementById('age').innerHTML = age
+
+let test = 3
+test %= 4
+document.getElementById('test').innerHTML = test
+
+// to display "Hello" ten times
+for (let i = 0; i < 10; i++) {
+  console.log("Hello");
+}
+
+
+let count = 0
+count ++;
+console.log(count)
+count ++;
+console.log(count)
+count --;
+console.log(count)
+
+console.log (2 ** 3 - 2 / 8 + 4 * 9 )
+
+let x = true;
+let y = x &&= 10;
+console.log(y)
+
+
+function toCelsius(fahrenheit) {
+  return (5/9) * (fahrenheit-32);
+}
+
+let value = toCelsius();
+
+function fullName(firstname,lastname,p){
+ return document.getElementById(p).innerHTML = firstname + " " + lastname
+}
+let firstName = "Jedidiah"
+let lastName = "Babalola"
+// const name1 = fullName("Iseoluwa", "Jimoh");
+// const name2 = fullName("Jedidiah", "Babalola");
+// const name3 = fullName("John", "Doe");
+// const name4 = fullName("Matthew", "Ayodele");
+// const name5 = fullName("Taiwo", "Abidoye");
+
+fullName("Iseoluwa","Jimoh","demo3")
+fullName("Jedidiah", "Babalola","demo4")
+fullName("John", "Doe","demo5")
+fullName("Matthew", "Ayodele","demo6")
+fullName("Taiwo", "Abidoye","demo7")
+
+// multiplication table 
+
+
+
+
+// let times_1 = m * 1
+// console.log(times_1)
+// let times_2 = m * 2
+// console.log(times_2)
+// let times_3 = m * 3
+// console.log(times_3)
+// let times_4 = m * 4
+// console.log(times_4)
+// let times_5 = m * 5
+// console.log(times_5)
+// let times_6 = m * 6 
+// console.log(times_6)
+// let times_7 = m * 7
+// console.log(times_7)
+// let times_8 = m * 8
+// console.log(times_8)
+// let times_9 = m * 9
+// console.log(times_9)
+// let times_10 = m * 10
+// console.log(times_10)
+// let times_11 = m * 11
+// console.log(times_11)
+// let times_12 = m * 12
+// console.log(times_12)
+ 
+ multiply = (a,b) => {
+  return console.log(a * b)
+}
+
+let m = 11
+m = 12
+m = 16
+m = 4
+
+multiply(m,1)
+multiply(m,2)
+multiply(m,3)
+multiply(m,4)
+multiply(m,5)
+multiply(m,6)
+multiply(m,7)
+multiply(m,8)
+multiply(m,9)
+multiply(m,10)
+multiply(m,11)
+multiply(m,12)
+
+
+// Declaring an Object in Js
+const car = {type: "Benz", color: "Green"  }
+
+// Assignment
+// Solve 20 different tasks with functions
+  </script>
+</html> 

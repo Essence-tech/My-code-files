@@ -1,0 +1,95 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(90deg, #2d4ec6, #7b2cbf);
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Header */
+header h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.brand-yellow {
+    color: #FFD700;
+}
+
+/* Main Title */
+main h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.subtitle {
+    max-width: 800px;
+    margin: 0 auto 40px;
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+/* Buttons */
+.cta-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 60px;
+}
+
+.btn-yellow {
+    background-color: #f9c513;
+    color: black;
+    border: none;
+    padding: 12px 25px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-yellow:hover {
+    background-color: #ffda4d;
+}
+
+.btn-white {
+    background-color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 5px;
+}
+
+/* Features */
+.features {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.feature-item {
+    max-width: 200px;
+}
+
+.feature-item .icon {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.feature-item h3 {
+    font-size: 1.1rem;
+    margin-bottom: 5px;
+}
+
+.feature-item p {
+    font-size: 0.9rem;
+    color: #dcdcdc;
+}

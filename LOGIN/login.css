@@ -1,0 +1,130 @@
+body {
+      font-family: Arial, sans-serif;
+      background-image: url(Techiie.jpg);
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0; 
+}
+
+  .login-container {
+      background: linear-gradient(30deg, #850b0b, #6d7073, #180c4d);
+      background-size: 900% 900%; 
+      animation: neonPulse 5s ease-in-out infinite;
+      color: white;
+      border-radius: 10px;
+      box-shadow: 0 0 60px rgba(244, 14, 14, 0.5);
+      width: 300px;
+      padding: 40px;
+      height: 320px;
+}
+
+
+@keyframes neonPulse {
+  0% { background-position: 0% 100%; }
+  50% { background-position: 100% 0%; }
+  100% { background-position: 0% 100%; }
+}
+
+
+    .login-container h2 {
+      margin-bottom: 20px;
+      font-family: Verdana;
+      padding-left: 120px;
+      
+    }
+
+
+    .login-container input[type="text"],
+    .login-container input[type="password"] {
+      padding: 10px;
+      margin: 10px 0;
+      width: 93%;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      box-shadow: 5px 5px 10px black;
+    }
+    
+    .submit {
+      display:flex;
+      justify-content: center;
+
+    }
+    
+    .login-container button {
+      background-color:transparent;
+      border: 2px solid white;
+      transition: 1s ease-in-out;
+      border-radius: 12px;
+      color: rgb(255, 255, 255);
+      font-size: 16px;
+      padding: 10px;
+      padding-right: 10%;
+      padding-left: 10%;
+      cursor: pointer; 
+      margin-top: 10px;
+}
+
+    .login-container button:hover {
+      background-color: #ffffff;
+      color: #000000;
+      box-shadow: 5px 5px 10px black;
+    }
+
+    .login-container .forgot {
+      display:flex;
+      justify-content: center;
+      padding-top: 10px;
+      margin-top: 10px;
+    }
+
+    .login-container .forgot a {
+      color: #e7e7e7;
+      text-decoration: none;
+      transition: color 0.5s, text-decoration 0.5s;
+    }
+
+     .login-container .forgot a:hover{
+      color: rgb(57, 11, 11);
+      text-decoration: underline;
+     }
+
+    .login-container .register {
+      display:flex;
+      justify-content: center;
+      margin-left: 20px;
+      
+    }
+
+     .login-container .register a {
+      color: rgb(57, 11, 11);
+      transition: color 0.5s;      
+    }
+
+     .login-container .register a:hover{
+      color: #c9bfbf;
+      
+     }
+
+     span{
+        background: linear-gradient(270deg, #564e4e, #cfc7c7, #564e4e);
+        color: transparent;
+        background-clip: text;
+        animation: neonPulse 20s ease-in-out infinite;
+     }
+       
+    /* #reveal {
+  opacity: 0;
+  transform: translateY(40px);
+  transition: all 0.9s ease-out;
+}
+
+#reveal.visible {
+  opacity: 1;
+  transform: translateY(0);
+} */
+ 

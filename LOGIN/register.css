@@ -1,0 +1,66 @@
+body {
+      font-family: Arial, sans-serif;
+      background-image: url(Black.jpg);
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0; 
+}
+        /* .biodata-container {
+            background-color: rgb(18, 6, 6);
+            padding: 20px;
+            border: 1px solid rgb(45, 41, 41);
+            border-radius: 5px;
+            width: 400px;
+            height: 400px;
+        } */
+
+            .biodata-container {
+              background: linear-gradient(30deg, #850b0b, #6d7073, #180c4d);
+              background-size: 900% 900%; 
+              animation: neonPulse 19s ease-in-out infinite;
+              color: white;
+              border-radius: 10px;
+              box-shadow: 0 0 60px rgba(244, 14, 14, 0.5);
+              padding: 20px;
+              width: 400px;
+              height: 500px;
+              display: flex;
+              flex-direction: column;
+        }
+
+        @keyframes neonPulse {
+  0% { background-position: 0% 100%; }
+  50% { background-position: 100% 0%; }
+  100% { background-position: 0% 100%; } }
+        
+  .biodata-container h2 {
+            text-align: center;
+            color: aliceblue;
+        }
+        
+        /* .biodata-container input {
+            width: 100%;
+            border: solid white ;
+            border-radius: 4px;
+
+        } */
+        .biodata-container button {
+            width: 100px;
+            padding: 10px;
+            background-color: rgb(255, 255, 255);
+            border: none;
+            border-radius: 4px;
+            color: black;
+            font-size: 20px;
+            font-family: Arial;
+        }
+
+.name1, .name2, .name3, .name4, .name5{
+    color: aliceblue;
+    
+}

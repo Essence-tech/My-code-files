@@ -1,0 +1,33 @@
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> J-COMPANY </title>
+    <link rel="icon" href="j logo.jpg" type="image/jpg">
+    <link rel="stylesheet" href="register.css">
+</head>
+<body>
+     <div class="biodata-container">
+        <h2>REGISTER</h2>
+        <form action="/submit_biodata" method="post">
+            <p class="name1">Full Name:</p>
+            <input type="text" placeholder="Enter your name" name="fullname" required> 
+
+            <p class="name2">Date of Birth:</p>
+            <input type="date" name="dob" required>
+
+             <p class="name3">Gender:</p>
+            <input type="radio" name="gender" value="male">Male<br>
+            <input type="radio" name="gender" value="female">Female<br>
+
+           <p class="name4">Email:</p>
+            <input type="email" placeholder="Enter your email address" name="email" required>
+
+            <p class="name5">Phone Number:</p>
+            <input type="tel" placeholder="0000 000 0000"  name="phone" required>
+
+            <button type="submit">Next</button>
+        </form>
+    </div>
+</body>
+</html>
